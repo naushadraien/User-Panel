@@ -13,7 +13,7 @@ const HeroSection = () => {
             alt="ProfileImage"
             width={70}
             height={60}
-            className="rounded-full"
+            className="rounded-full cursor-pointer"
           />
           <p className="flex flex-col">
             Raunak Khanna

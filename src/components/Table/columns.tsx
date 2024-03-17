@@ -38,6 +38,10 @@ export const columns: ColumnDef<Payment>[] = [
     enableHiding: false,
   },
   {
+    accessorKey: "createdAt",
+    header: "CreatedAt",
+  },
+  {
     accessorKey: "status",
     header: "Status",
     cell: ({ row }) => (
